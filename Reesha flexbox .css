@@ -46,7 +46,6 @@ color: black;
   background-color: rgba(255, 255, 255, 0.05);
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(27, 26, 26, 0.3);
   min-height: 300px;
 }
 
