@@ -1,39 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="utf-8" />
-     <title>Flexbox Layout</title>
-     <link rel="stylesheet" href="flexStyle.css" />
+    <meta charset="UTF-8">
+   <title>Galaxy Background</title>
+    <link rel="stylesheet" href="SelmirStyle.css"> <!-- Linking external CSS -->
 </head>
-
 <body>
-     <h1>Flexible Boxes 2</h1>
+    <div class="content">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Navigation Bar</title>
+		<style type="text/css">
+			*{
+				text-decoration: none;
+			}
+			.navbar{
+				background: crimson; font-family: calibri; padding-right: 15px;padding-left: 15px;
+			}
+			.navdiv{
+				display: flex; align-items: center; justify-content: space-between;
+			}
+			.logo a{
+				font-size: 35px; font-weight: 600; color: white;
+			}
+			li{
+				list-style: none; display: inline-block;
+			}
+			li a{
+				color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+			}
+			button{
+				background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+			}
+			button a{
+				color: white; font-weight: bold; font-size: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navdiv">
+				<div class="logo"><a href="#">Magic of Constulation</a> </div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="Index- Mohammed.html">Star Formations</a></li>
+					<button><a href="#">Accept Cookies</a></button>
+					
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="divOne">
+			<h2 id="h2">Welcome to our website
+				Here you can learn in the best way 
+				possible about the universe
+				Stars specifically
+			</h2>
+		</div>
 
-      <div class="flex-container">
-          <div id="divl"><p>1</p></div>
-          <div id="div2"><p>2</p></div>
-          <div id="div3"><p>3</p></div>
-          <div id="div4"><p>4</p></div>
-          <div id="div5"><p>5</p></div>
-          <div id="div6"><p>6</p></div>
-     </div>
-  
+		<div id="both">
+			<div id="left">
+				<img src="Nissan-Universe-Shouts.webp">
+				<button id="left- div"> </button>
+			</div>
+		
 
- <div class="flex-container3"> <!--This is a second container not the third one.-->
-          <div id="divimage1">
-               <img id="img1"     src="imageedit_2_8095516220.png" alt="">
-          </div>
-          <div id="divimage2"><img id="img2" src="Dexieeee.jpg"></div>
-</div>
-     
-<div class="flex-container4"> <!--This is a third container not the third one.-->
-     <div id="left-div1"></div>
-   <div id="rightdiv">  <iframe id="video1" src="https://www.youtube.com/embed/dENJIM9J5r4?si=ViyFig8RKYEZz7BQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-     </div>
+		
+			<div id="right">
+				<img src="space_galaxy_astronomical_universe_helix_4k_hd_space-3840x2160.jpg" id="Galaxy">
+				<button id="right- button"></button>
+			</div>
+		
+		</div>
 
-</div> 
 
-     </body>
-     </html>
 
-     
+		   
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
