@@ -1,0 +1,207 @@
+.navbar{
+  list-style-type: none;
+  background-color: rgb(1, 1, 77);
+  padding: 0%;
+  margin: 0%;
+  overflow: hidden;
+}
+.navbar a{
+  color:white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgb(0, 0, 0);
+}
+.navbar li{
+  float: left;
+}
+.big-box{
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url(https://media.tenor.com/sQDz_xy06NMAAAAM/magic-stars.gif);
+  display:flex;
+  height: 19cm; 
+
+}
+  .small-box1{
+    line-height: 1.5;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px 60px 30px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  border: solid 3px blue;
+  background-color: black;
+  width: 250px;
+  height: 500px;
+ } 
+ .small-box2{
+  font-weight:lighter;
+  line-height: 1.5;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px 60px 30px;
+  position:absolute;
+  bottom: 50px;
+  left: 50px;
+  display: flex;
+  background-color:black;
+  border: solid 3px blue;
+  width: 250px;
+  height: 500px;
+ }
+  
+ .small-box3{
+  line-height: 1.4;
+  font-weight:lighter;
+  flex-direction: column;
+   align-items: center;
+  text-align: center;
+  border-radius: 10px 60px 30px;
+  position: absolute;
+  bottom: 50px;
+  left: 42%;
+  display: flex;
+  background-color: black;
+  border: solid 3px blue;
+  width: 250px;
+  height: 500px;
+ }
+    
+  .small-box4{
+    border-radius: 30px 60px;
+    position: absolute;
+    bottom:70px;
+    right: 350px;
+    display: flex;
+    background-color: black;
+    border: solid 3px blue;
+    width: 250px;
+    height: 250px;
+
+ }
+
+ .small-box5{
+  background-color: black;
+  border-radius: 30px 60px;
+  position: absolute;
+  bottom: 70px;
+  left: 350px;
+  display: flex;
+  border: solid 3px blue;
+  width: 250px;
+  height: 250px;
+ }
+
+ .button1{
+  background-color: rgb(19, 19, 151);
+  border-radius: 0px 70px;
+  padding: 10px 20px;
+ }
+.button{
+  font-size: 17px;
+  background-color: rgb(46, 72, 149);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 60px 30px;
+}
+#img1{
+  border-radius:30px 60px;
+  width: 250px;
+}
+#img2{
+  border-radius:30px 60px 100px 60px;
+ width: 250px;
+}
+
+.big-container{
+  background-color: rgb(213, 213, 225);
+  disply: flex;
+width:100%;
+  height: 1000px;
+  border:solid rgb(19, 18, 18) 6px;
+
+}
+.heading1{
+  display: flex;
+  text-align: center;
+  flex-direction:column;
+}
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.box {
+  flex: 1 1 45%;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(27, 26, 26, 0.3);
+  min-height: 300px;
+}
+
+.slideshow {
+  width: 100%;
+  height: 300px; 
+  overflow: hidden;
+  border-radius:30px 60px;
+  border: solid 5px black;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300%; 
+  height: 100%;
+  animation: slide 800s infinite;
+}
+
+.slides img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+@keyframes slide {
+0%   { transform: translateX(0); }
+25%  { transform: translateX(-100%); }
+50%  { transform: translateX(-200%); }
+75%  { transform: translateX(-300%); }
+100% { transform: translateX(0); }
+}
+
+.text-box {
+background-color: rgb(44, 42, 165);
+  border-radius:30px 60px;
+  border: solid 5px black;
+  font-size: 1.05em;
+  text-align: justify;
+  color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
