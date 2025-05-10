@@ -1,0 +1,25 @@
+.row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.stage-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.stage-text {
+    max-width: 500px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

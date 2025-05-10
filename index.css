@@ -1,0 +1,61 @@
+.intro h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+/* Apply styles to the <a> element */
+.image-grid a {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    /* ensures rounded corners apply to image */
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Apply hover effect on the whole link (not just image) */
+.image-grid a:hover {
+    transform: scale(1.05);
+}
+
+/* Reset individual image-specific styling */
+.image-grid a img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.text-section p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+
+/* Learn More section */
+.learn-more {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.learn-more a {
+    color: #4da6ff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.learn-more a:hover {
+    text-decoration: none;
+}

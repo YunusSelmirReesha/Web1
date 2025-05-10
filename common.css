@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://media.tenor.com/sQDz_xy06NMAAAAM/magic-stars.gif);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #080830;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #1a1a60;
+}
+
+.navbar ul {
+    list-style: none;
+    /* removes bullets */
+    display: flex;
+    /* makes list items horizontal */
+    justify-content: center;
+    /* centers the list */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: white;
+    color: #0a0a40;
+    text-decoration: none;
+}
+
+/* Main content takes remaining height before footer */
+main {
+    padding-top: 60px;
+    flex: 1;
+}
+
+.main-content {
+    padding: 40px 20px;
+    padding-bottom: 80px;
+    /* Enough space for the fixed footer */
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Footer styling */
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080830;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    color: #cccccc;
+    border-top: 1px solid #1a1a60;
+    z-index: 1000;
+}
